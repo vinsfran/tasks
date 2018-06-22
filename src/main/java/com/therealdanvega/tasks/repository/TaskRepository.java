@@ -5,10 +5,13 @@
  */
 package com.therealdanvega.tasks.repository;
 
+import com.therealdanvega.tasks.domain.Task;
+import org.springframework.data.repository.CrudRepository;
+
 /**
  *
  * @author vinsfran
  */
-public interface TaskRepository {
+public interface TaskRepository extends CrudRepository<Task, Long> {
 
 }

@@ -5,10 +5,14 @@
  */
 package com.therealdanvega.tasks.service;
 
+import com.therealdanvega.tasks.domain.Task;
+
 /**
  *
  * @author vinsfran
  */
 public interface TaskService {
+
+    Iterable<Task> list();
 
 }
